@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF8F5;
+  --foreground: #4E3629;
+  --accent-green: #2E4F3F;
+  --accent-brown: #4E3629;
+  --font-satoshi: 'Satoshi', sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-forest: #2E4F3F;
+  --color-espresso: #4E3629;
+  --color-canvas: #FAF8F5;
+  --font-sans: var(--font-satoshi);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #4E3629;
+  font-family: 'Satoshi', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar but keep functionality */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Marquee keyframes */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Glassmorphism pill nav */
+.glass-pill {
+  background: rgba(250, 248, 245, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(78, 54, 41, 0.12);
+  box-shadow: 0 8px 32px rgba(78, 54, 41, 0.10), 0 2px 8px rgba(78, 54, 41, 0.06);
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(46, 79, 63, 0.2);
+  color: #2E4F3F;
+}
