@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saung Koffie Hideung
 
-## Getting Started
+An interactive and responsive landing page for **Saung Koffie Hideung**, an outdoor nature recreation and cafe destination located in Puncak Sempur, Karawang. 
 
-First, run the development server:
+This project was built with a strong focus on high-end **Visual UI Design**, delivering a seamless user experience (UX) through eye-catching animations, modern layouts, and optimal performance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Saung Koffie Hideung Preview](/public/images/hero_panorama.webp)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 **Live Demo:** [https://saungkoffiehideung.vercel.app/](https://saungkoffiehideung.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Modern & Earthy Minimalist UI:** Premium visual design combining nature-inspired color palettes with clean typography.
+- **Fluid Animations (Framer Motion):** Smooth page transitions, scroll-linked animations, and engaging micro-interactions on every interactive element.
+- **Interactive Bento Grid:** The facilities section utilizes a modern, asymmetrical bento grid layout to showcase amenities.
+- **Expandable Cards (Shared Layout):** Facility cards seamlessly expand into a centered modal to display detailed pricing and services using Framer Motion's `layoutId`.
+- **Dynamic Scroll Navigation:** A smart navbar that elegantly morphs into a pill shape upon scrolling, featuring smooth anchor scrolling to specific sections.
+- **Integrated Social Proof:** Animated number counters for key statistics (Guests, Facilities, Ratings) that trigger when entering the viewport.
+- **Direct Conversion:** Seamless WhatsApp booking integration (with pre-filled message parameters) and a custom-styled Google Maps iframe embed.
+- **Fully Responsive:** Meticulously optimized for all screen sizes, from mobile devices to high-resolution desktop monitors.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** [Next.js]
+- **Styling:** [Tailwind CSS]
+- **Animation:** [Framer Motion]
+- **Language:** TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Getting Started (Local Development)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Follow these steps to run the project on your local machine:
 
-## Deploy on Vercel
+1. **Clone this repository:**
+   ```bash
+   git clone [https://github.com/vyzz_xz/saung-koffie-hideung.git](https://github.com/vyzz_xz/saung-koffie-hideung.git)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Navigate to the project directory:**
+    ```bash
+    cd saung-koffie-hideung
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+    # or
+    ```bash
+    yarn install
+    ```
+
+4. **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+    # or
+    ```bash
+    yarn dev
+    ```
+
+5. **Open http://localhost:3000 in your browser to see the result.**
+
+    ⚠️ Disclaimer
+    This project is a concept created solely for learning, portfolio, and demonstration purposes. It is not affiliated with, endorsed by, or connected to the real Saung Koffie Hideung business. All logos, images, and trademarks belong to their respective owners.
+
+    Author
+    Designed and developed by Muhamad Hafiz.
+
+    © 2026 Saung Koffie Hideung. All Rights Reserved.
