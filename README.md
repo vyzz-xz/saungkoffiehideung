@@ -38,31 +38,20 @@ Follow these steps to run the project on your local machine:
     ```bash
     cd saung-koffie-hideung
     ```
-
 3. **Install the dependencies:**
     ```bash
     npm install
     ```
-    # or
-    ```bash
-    yarn install
-    ```
-
 4. **Start the development server:**
     ```bash
     npm run dev
     ```
-    # or
-    ```bash
-    yarn dev
-    ```
-
 5. **Open http://localhost:3000 in your browser to see the result.**
 
-    ⚠️ Disclaimer
-    This project is a concept created solely for learning, portfolio, and demonstration purposes. It is not affiliated with, endorsed by, or connected to the real Saung Koffie Hideung business. All logos, images, and trademarks belong to their respective owners.
 
-    Author
-    Designed and developed by Muhamad Hafiz.
+⚠️ Disclaimer
+This project is a concept created solely for learning, portfolio, and demonstration purposes. It is not affiliated with, endorsed by, or connected to the real Saung Koffie Hideung business. All logos, images, and trademarks belong to their respective owners.
 
-    © 2026 Saung Koffie Hideung. All Rights Reserved.
+Author
+Designed and developed by Muhamad Hafiz.
+© 2026 Saung Koffie Hideung. All Rights Reserved.
